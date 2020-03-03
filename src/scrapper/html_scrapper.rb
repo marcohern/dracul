@@ -1,5 +1,5 @@
 
-require_relative '../scrapper.rb'
+require_relative 'scrapper.rb'
 
 module Dracul
   module Scrappers
