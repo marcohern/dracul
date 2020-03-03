@@ -4,7 +4,7 @@ require_relative 'scrapper.rb'
 module Dracul
   module Scrappers
     module Html
-      class HtmlScrapper < Scrapper
+      class JsonScrapper < Scrapper
 
         def scrap(url, options)
           

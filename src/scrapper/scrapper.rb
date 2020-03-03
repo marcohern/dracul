@@ -32,7 +32,7 @@ module Dracul
       end
 
       def scrap(url, options = {})
-        raise NotImplementedError.new "Scrapper.scrap must be implemented"
+        validate_options options
       end
 
     end
